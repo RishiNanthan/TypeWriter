@@ -1,0 +1,95 @@
+.App {
+  background-color: #282c34;
+  min-height: 720px;
+}
+
+.App-header {
+  background-color: bisque;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.list{
+  float: left;
+  display: flex;
+  padding: 10px;
+  color: wheat;
+  background: blueviolet;
+  margin: 5px;
+}
+
+.highlight{
+  background: wheat;
+  color: blueviolet;
+  float: left;
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bolder;
+  border: 2px solid red;
+  font-size: 20px;
+}
+
+
+.inputchars{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: wheat;
+  color: blueviolet;
+  padding: 10px 30px;
+  text-align: center;
+  border: 2px solid red;
+  font-size: 25px;
+}
+
+.characters{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid wheat;
+}
+
+.keyboard{
+  display: inline-block;
+  background: white;
+  box-shadow: 0 10px 10px #fff;
+  border: 4px groove black;
+  border-radius: 10px;
+}
+
+.key-row{
+  display: flex;
+  padding: 10px 50px;
+  justify-content: center;
+}
+
+.key{
+  display: flex;
+  float: left;
+  margin: 10px 5px;
+  background-color: wheat;
+  padding: 20px;
+  border: 2px groove black;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  color: #282c34;
+  font-weight: bolder;
+}
+
+.error-key{
+  background: red;
+  color: black;
+}
+
+.highlight-key{
+  background: #282c34;
+  color: white;
+}
+
